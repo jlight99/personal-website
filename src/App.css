@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+} 
+
+.App-header {
+  height: 240px;
+  color: beige;
+  margin-top: 212px;
+  font-size: 54px;
+}
+
+.App-footer {
+  margin-top: 8%;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+a {
+  color: beige;
+  text-decoration: none;
+}
+
+a:hover {
+  color: beige;
+  /* text-decoration: underline; */
+  background-color: grey;
+  border-radius: 16%;
+  padding: 0px 7px;
+}
+
+.contact-item {
+  margin: 20px;
+  font-size: 36px;
+  display: inline-block;
+  background-color: beige;
+  width: 60px;
+  height: 48px;
+  padding-top: 10px;
+  border-radius: 50%;
+}
