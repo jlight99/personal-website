@@ -2,7 +2,7 @@ import React from 'react';
 
 class Resume extends React.Component {
     render() {
-        return <h1>resume!</h1>
+        return <a href="../../resources/resume" download>click to download  my resume!</a>
     }
 }
 
