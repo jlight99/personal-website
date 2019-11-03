@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
+import { faFileDownload } from '@fortawesome/free-solid-svg-icons';
 import { fab } from '@fortawesome/free-brands-svg-icons';
+import './ContactInfo.css';
 
-library.add(fab)
+library.add(fab, faFileDownload)
 
 class ContactInfo extends Component {
     render() {
@@ -20,8 +22,13 @@ class ContactInfo extends Component {
             </a>
           </div>
           <div className="contact-item">
-            <a href="https://www.strava.com/athletes/41936791" target="_blank">
+            <a href="https://www.strava.com/athletes/41936791">
               <FontAwesomeIcon icon={['fab', 'strava']} style={{ color: "fc4c02" }} />
+            </a>
+          </div>
+          <div className="contact-item">
+            <a href="/resources/resume.pdf" download>
+              <FontAwesomeIcon icon='file-download' style={{ color: "black", maxWidth: 24 }} />
             </a>
           </div>
         </div>

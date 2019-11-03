@@ -1,0 +1,16 @@
+.contact-item {
+    margin: 20px;
+    font-size: 36px;
+    display: inline-block;
+    background-color: white;
+    width: 60px;
+    height: 48px;
+    padding-top: 2vh;
+    border-radius: 50%;
+    border: #5680e9 solid;
+    top: 0px;
+  }
+  
+  .contact-item:hover {
+    transform: scale(1.1);
+  }

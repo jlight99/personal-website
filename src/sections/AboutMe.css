@@ -1,0 +1,26 @@
+.about {
+    color: black;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url('../../public/resources/ribbon3.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.hi {
+    font-size: 54px;
+    padding-bottom: 2vh;
+}
+
+.about-text {
+    flex-direction: row;
+    max-width: 536px;
+    justify-content: start;
+    text-align: center;
+    font-size: 19px;
+}

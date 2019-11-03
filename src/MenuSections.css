@@ -1,0 +1,22 @@
+.menu-header {
+    top: 0px;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100vw;
+    height: 60px;
+    background-color: white;
+    box-shadow: 0 2px 3px #5680e9;
+}
+
+.section-header {
+    display: inline-block;
+    font-size: 24px;
+    padding: 12px;
+    color: #5680e9;
+}
+
+.section-header:hover {
+    text-decoration: underline #8860d0;
+}

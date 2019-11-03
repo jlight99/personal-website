@@ -1,0 +1,81 @@
+.experience-section {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+.experience-header {
+    font-size: 54px;
+    padding: 16px 0;
+}
+
+.experience-image {
+    float: left;
+    width: 18vw;
+    text-align: left;
+}
+
+h3 { 
+    color: #5680e9; 
+    font-family: 'Trocchi'; 
+    font-size: 36px; 
+    font-weight: normal; 
+    line-height: 48px; 
+    margin: 0; 
+}
+
+.position {
+    color: #8860d0;
+    font-size: 24px;
+}
+
+.date {
+    color: #5ab9ea;
+    font-size: 18px;
+    float: right;
+}
+
+.experience-text {
+    float: right;
+    width: 36vw;
+    text-align: left;
+    font-family: "Trocchi";
+}
+
+ul {
+    padding: 1px 0;
+    list-style-type: square;
+}
+
+li {
+    padding: 3px 0;
+}
+
+.experience-date {
+    font-size: 20px;
+}
+
+.experience-img {
+    width: 12vw;
+    height: 12vw;
+}
+
+.experience-tech {
+    padding: 3vw 3vw;
+    width: 10vw;
+    text-align: right;
+    float: right;
+}
+
+.experience-tech ul {
+    padding-top: 2vw;
+    list-style-type: none;
+}
+
+.experience-tech li:hover {
+    cursor: pointer;
+    font-size: 18px;
+    text-decoration: underline #8860d0;
+}
