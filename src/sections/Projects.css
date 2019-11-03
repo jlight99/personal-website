@@ -1,0 +1,19 @@
+.projects-header {
+    font-size: 54px;
+    padding: 16px 0;
+}
+
+.projects {
+    display: flex;
+    padding: 0 8vw;
+}
+
+.card {
+    margin: 2vh 3vw;
+    width: 24vw;
+}
+
+.media {
+    height: 0;
+    padding-top: 56.25%;
+}

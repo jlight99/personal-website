@@ -75,7 +75,6 @@ li {
 }
 
 .experience-tech li:hover {
-    cursor: pointer;
-    font-size: 18px;
-    text-decoration: underline #8860d0;
+    cursor: default;
+    color: #5680e9;
 }

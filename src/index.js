@@ -1,18 +1,17 @@
 import React from 'react';
+import App from './App';
+import Blog from './Blog';
 import ReactDOM from 'react-dom';
+import { Route, BrowserRouter as Router } from 'react-router-dom'
 import './index.css';
-import MenuSections from './MenuSections';
-import AboutMe from './sections/AboutMe';
-import Experience from './sections/Experience';
 
 const routing = (
-  <span>
-    <MenuSections class="header" />
-    <div class="the-body">
-      <AboutMe />
-      <Experience />
+  <Router>
+    <div>
+      <Route exact path="/" component={App} />
+      <Route path="/blog" component={Blog} />
     </div>
-  </span>
+  </Router>
 )
 
 ReactDOM.render(

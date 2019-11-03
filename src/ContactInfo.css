@@ -5,10 +5,14 @@
     background-color: white;
     width: 60px;
     height: 48px;
-    padding-top: 2vh;
+    padding-top: 1.6vh;
     border-radius: 50%;
     border: #5680e9 solid;
     top: 0px;
+  }
+
+  .contact-info {
+    padding-top: 2vh;
   }
   
   .contact-item:hover {
