@@ -17,7 +17,7 @@
     "react-scripts": "0.9.5"
   },
   "devDependencies": {},
-  "homepage": "http://jlight99.github.io/personal-website",
+  "homepage": "https://jlight99.github.io/personal-website",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
