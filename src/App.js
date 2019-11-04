@@ -1,23 +1,20 @@
 import React, { Component } from 'react';
-import MenuSections from './MenuSections';
-import AboutMe from './sections/AboutMe';
-import Experience from './sections/Experience';
-import Projects from './sections/Projects';
+import Blog from './Blog';
+import LandingPage from './LandingPage';
+import { Route, BrowserRouter as Router } from 'react-router-dom'
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-        <span>
-          <MenuSections class="header" />
-          <div class="the-body">
-            <AboutMe />
-            <Experience />
-            <Projects />
-          </div>
-        </span>
+  <Router>
+    <div>
+      <Route exact path="/" component={LandingPage} />
+      <Route path="/blog" component={Blog} />
+    </div>
+  </Router>
     );
   }
 }
 
-export default App;
+export default App
