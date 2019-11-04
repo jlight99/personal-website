@@ -15,10 +15,9 @@ class Experience extends React.Component {
                             <ul>
                                 <li>golang</li>
                                 <li>grpc/protobuf</li>
-                                <li>sql (amazon aurora)</li>
+                                <li>sql</li>
                                 <li>php</li>
                                 <li>ruby</li>
-                                <li>kubernetes</li>
                             </ul>
                         </span>
                         <span className="experience-text">
@@ -42,7 +41,7 @@ evaluate whether to delay user’s purchase based on their asn and purchase hist
                         <span className="experience-tech">
                             <ul>
                                 <li>java</li>
-                                <li>sql (microsoft sql database)</li>
+                                <li>sql</li>
                                 <li>angular</li>
                                 <li>docker</li>
                             </ul>

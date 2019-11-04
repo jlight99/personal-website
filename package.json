@@ -15,11 +15,16 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "0.9.5"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
+  },
+  "homepage": "http://jlight99.github.io/personal-website",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }
