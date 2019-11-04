@@ -8,8 +8,8 @@ class LandingPage extends Component {
     render() {
         return (
             <span>
-                <MenuSections class="header" />
-                <div class="the-body">
+                <MenuSections />
+                <div>
                     <AboutMe />
                     <Experience />
                     <Projects />

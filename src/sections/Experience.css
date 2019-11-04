@@ -4,6 +4,7 @@
     align-items: center;
     flex-direction: column;
     background-color: white;
+    padding-top: 10vh;
 }
 
 .experience-header {
@@ -51,6 +52,15 @@ ul {
 
 li {
     padding: 3px 0;
+    font-size: 17px;
+}
+
+.on {
+    color: #5680e9;
+}
+
+.off {
+    color: black;
 }
 
 .experience-date {

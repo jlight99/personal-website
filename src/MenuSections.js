@@ -4,11 +4,11 @@ import './MenuSections.css';
 class MenuSections extends Component {
     render() {
         return (
-            <span class="menu-header">
-                <a href="#about_me" class="section-header">home</a>
-                <a href="#experience" class="section-header">experience</a>
-                <a href="#projects" class="section-header">projects</a>
-                <a href="/blog" class="section-header">blog</a>
+            <span className="menu-header">
+                <a href="#about_me" className="section-header">home</a>
+                <a href="#experience" className="section-header">experience</a>
+                <a href="#projects" className="section-header">projects</a>
+                <a href="/blog" className="section-header">blog</a>
             </span>
         )
     }

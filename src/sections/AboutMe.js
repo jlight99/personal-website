@@ -7,9 +7,9 @@ class AboutMe extends React.Component {
     render() {
         return (
             <a id="about_me">
-            <span class="about">
-                <div class="hi">hey, i'm ellen!</div>
-                <div class="about-text">
+            <span className="about">
+                <div className="hi">hey, i'm ellen!</div>
+                <div className="about-text">
                     i study software engineering at the university of waterloo.
                     i am experienced in backend and full-stack web development.
                     aside from programming, my interests include long distance running, playing violin, and writing.
