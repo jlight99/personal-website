@@ -8,13 +8,15 @@ class AboutMe extends React.Component {
         return (
             <a id="about_me">
             <span className="about">
+                <span className="about-section">
                 <div className="hi">hey, i'm ellen!</div>
                 <div className="about-text">
-                    i study software engineering at the university of waterloo.
-                    i am experienced in backend and full-stack web development.
-                    aside from programming, my interests include long distance running, playing violin, and writing.
-                    audiobooks are my guilty pleasure!
+                    <div>i study software engineering at the university of waterloo. in my spare time, i like to play around with new technologies and build random stuff.</div>
+                    <br></br>
+                    <div>aside from programming, i also enjoy playing violin, writing, and long distance running.</div>
+                    <div>audiobooks are my guilty pleasure!</div>
                 </div>
+                </span>
                 <ContactInfo />
             </span>
             </a>

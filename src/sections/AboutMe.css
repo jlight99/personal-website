@@ -19,8 +19,17 @@
 
 .about-text {
     flex-direction: row;
-    max-width: 536px;
+    max-width: 49vw;
     justify-content: start;
     text-align: center;
-    font-size: 19px;
+    font-size: 1.24em;
+    border-block: 3px;
+}
+
+.about-section {
+    padding: 2em;
+    box-sizing: content-box;
+    /* background-color: rgba(199, 200, 228, 0.5); */
+    /* background-color: rgb(221,160,236, 0.4); */
+    background-color: rgba(132, 206, 235, 0.4);
 }

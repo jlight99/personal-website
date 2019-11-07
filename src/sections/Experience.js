@@ -38,7 +38,7 @@ class Experience extends React.Component {
                         <span className="experience-text">
                             <h3>textnow</h3>
                             <span className="position">backend developer</span>
-                            <span className="date">may to august 2018</span>
+                            <span className="date">september to present</span>
                             <ul>
                                 <li className={this.state.selectedItem === 1 || this.state.selectedItem === 2 || this.state.selectedItem === 6 ? "on" : "off"}>
                                     built phone number verification microservice to concurrently verify sms/calling functionality of numbers and store
