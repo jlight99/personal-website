@@ -17,7 +17,7 @@
     "react-scripts": "0.9.5"
   },
   "devDependencies": {},
-  "homepage": "https://jlight99.github.io/personal-website",
+  "homepage": "https://ellenhuang.dev",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

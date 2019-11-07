@@ -57,6 +57,7 @@ li {
 
 .on {
     color: #5680e9;
+    font-weight: bold;
 }
 
 .off {
@@ -87,4 +88,9 @@ li {
 .experience-tech li:hover {
     cursor: default;
     color: #5680e9;
+    font-weight: bold;
+}
+
+.experience-item {
+    padding-top: 2vh;
 }

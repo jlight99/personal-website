@@ -129,7 +129,8 @@ class Projects extends React.Component {
                             />
                             <CardContent>
                                 <Typography variant="body2" color="textSecondary" component="p">
-                                    arduino-based classic connect-4 with a fresh, fruity twist!
+                                    classic connect-4 with autoshuffle and hint features on the arduino
+                                    <div>my first ever programming project!</div>
                             </Typography>
                             </CardContent>
 
