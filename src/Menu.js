@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './MenuSections.css';
+import './Menu.css';
 
-class MenuSections extends Component {
+class Menu extends Component {
     render() {
         return (
             <span className="menu-header">
@@ -14,4 +14,4 @@ class MenuSections extends Component {
     }
 }
 
-export default MenuSections;
+export default Menu;

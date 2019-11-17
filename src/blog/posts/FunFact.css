@@ -1,0 +1,8 @@
+.fun-fact {
+    padding: 1vw;
+    line-height: 1.5em;
+    border: solid pink 2px;
+    width: 14vw;
+    right: 2vw;
+    position: absolute;
+}

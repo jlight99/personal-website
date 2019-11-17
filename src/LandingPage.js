@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import MenuSections from './MenuSections';
+import Menu from './Menu';
 import AboutMe from './sections/AboutMe';
 import Experience from './sections/Experience';
 import Projects from './sections/Projects';
@@ -9,7 +9,7 @@ class LandingPage extends Component {
     render() {
         return (
             <span>
-                <MenuSections />
+                <Menu />
                 <div>
                     <AboutMe />
                     <Experience />

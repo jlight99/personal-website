@@ -29,10 +29,9 @@ class Experience extends React.Component {
                             <ul>
                                 <li value="1">golang</li>
                                 <li value="2">grpc/protobuf</li>
-                                <li value="3">php</li>
-                                <li value="4">ruby</li>
-                                <li value="5">redis</li>
                                 <li value="6">sql</li>
+                                <li value="3">php</li>
+                                <li value="5">redis</li>
                             </ul>
                         </span>
                         <span className="experience-text">
@@ -43,7 +42,6 @@ class Experience extends React.Component {
                                 <li className={this.state.selectedItem === 1 || this.state.selectedItem === 2 || this.state.selectedItem === 6 ? "on" : "off"}>
                                     built phone number verification microservice to concurrently verify sms/calling functionality of numbers and store
 results in database; service is deployed via kubernetes running in aws</li>
-                                <li className={this.state.selectedItem === 4 ? "on" : "off"}>modified existing phone number service by adding new API routes to integrate with the new phone number verification service</li>
                                 <li className={this.state.selectedItem === 1 ? "on" : "off"}>fortified spam detection by building a url parser to identify url in text messages and drop suspicious messages</li>
                                 <li className={this.state.selectedItem === 3 || this.state.selectedItem === 5 ? "on" : "off"}>advanced anti-fraud measures by recording asn of fraudulent users in redis cache, and implementing logic to
 evaluate whether to delay user’s purchase based on their asn and purchase history, saving >$2000/day in fraud cost</li>

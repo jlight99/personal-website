@@ -1,0 +1,46 @@
+.img-header {
+    width: 100%;
+    height: 100vh;
+}
+
+.post {
+    line-height: 1.8em;
+}
+
+.title {
+    padding-top: 54px;
+    font-size: 36px;
+}
+
+.blog-date {
+    font-size: 18px;
+    padding-top: 1vh;
+}
+
+.post-content {
+    padding: 36px 16vw 0 16vw;
+    flex-direction: column;
+    font-size: 17px;
+}
+
+.post-img {
+    padding: 20px;
+    width: 38vw;
+}
+
+.post-content p {
+    padding: 1vh;
+}
+
+.menu ul {
+    text-align: left;
+    margin: 1vh 15vw 1vh 15vw;
+    padding: 1vh 2vw 1vh 2vw;
+    border: solid pink;
+    list-style-type: none;
+}
+
+.menu li {
+    line-height: 1.2em;
+    padding-top: 1.6vh;
+}

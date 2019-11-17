@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Blog from './Blog';
+import Blog from './blog/Blog';
 import LandingPage from './LandingPage';
 import { Route, BrowserRouter as Router } from 'react-router-dom'
 import './App.css';
