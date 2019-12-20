@@ -40,11 +40,10 @@ class Experience extends React.Component {
                             <span className="date">september to present</span>
                             <ul>
                                 <li className={this.state.selectedItem === 1 || this.state.selectedItem === 2 || this.state.selectedItem === 6 ? "on" : "off"}>
-                                    built phone number verification microservice to concurrently verify sms/calling functionality of numbers and store
-results in database; service is deployed via kubernetes running in aws</li>
-                                <li className={this.state.selectedItem === 1 ? "on" : "off"}>fortified spam detection by building a url parser to identify url in text messages and drop suspicious messages</li>
-                                <li className={this.state.selectedItem === 3 || this.state.selectedItem === 5 ? "on" : "off"}>advanced anti-fraud measures by recording asn of fraudulent users in redis cache, and implementing logic to
-evaluate whether to delay user’s purchase based on their asn and purchase history, saving >$2000/day in fraud cost</li>
+                                    built and deployed a Go microservice to concurrently verify SMS/calling functionality of phone numbers, improving efficiency of the existing verification system by over 100%. The service successfully tested over 100000 numbers in production.</li>
+                                <li className={this.state.selectedItem === 1 ? "on" : "off"}>fortified spam prevention by devising and implementing an URL-detection algorithm, minimizing the number of phishing links sent via the platform and improving customer satisfaction.</li>
+                                <li className={this.state.selectedItem === 3 || this.state.selectedItem === 5 ? "on" : "off"}>advanced anti-fraud measures by recording asn of fraudulent users in redis cache and implementing logic to
+delay purchases based on user asn and purchase history, saving >$2000/day in fraud costs.</li>
                             </ul>
                         </span>
                     </div>
@@ -66,9 +65,8 @@ evaluate whether to delay user’s purchase based on their asn and purchase hist
                             <span className="position">full-stack developer</span>
                             <span className="date">january to april 2019</span>
                             <ul>
-                                <li className={this.state.selectedItem === 7 || this.state.selectedItem === 8 || this.state.selectedItem === 9 ? "on" : "off"}>developed configuration of autoscaling feature which scaled customer storefront pods based on load; constructed
-angular ui to accept values and java server-side logic to store values in microsoft sql database</li>
-                                <li className={this.state.selectedItem === 10 ? "on" : "off"}>improved autoscaling testing solution by automating load generation, reduced manual setup time by >90%</li>
+                                <li className={this.state.selectedItem === 7 || this.state.selectedItem === 8 || this.state.selectedItem === 9 ? "on" : "off"}>developed features for the SAP Commerce Cloud portal, the tool customers use to manage their storefronts, provision new environments, and launch deployments. Frontend features were implemented using Angular and backend features using Java.</li>
+                                <li className={this.state.selectedItem === 10 ? "on" : "off"}>automated load testing of new autoscaling feature using Docker, reducing manual setup time by over 90%.</li>
                             </ul>
                         </span>
                     </div>
@@ -80,8 +78,8 @@ angular ui to accept values and java server-side logic to store values in micros
                         <span className="experience-tech">
                             <ul>
                                 <li value="11">java</li>
-                                <li value="12">tableau</li>
-                                <li value="13">angular</li>
+                                <li value="12">angular</li>
+                                <li value="13">tableau</li>
                             </ul>
                         </span>
                         <span className="experience-text">
@@ -89,9 +87,8 @@ angular ui to accept values and java server-side logic to store values in micros
                             <span className="position">backend/analytics developer</span>
                             <span className="date">may to august 2018</span>
                             <ul>
-                                <li className={this.state.selectedItem === 11 || this.state.selectedItem === 13 ? "on" : "off"}>constructed a tableau dashboard configuration microservice in java, which accepted coordinates from web
-interface and drew polygons on dashboard maps, enabling the development of map drilldown features</li>
-                                <li className={this.state.selectedItem === 12 ? "on" : "off"}>created interactive tableau dashboards which were demoed at the mhlc international conference</li>
+                                <li className={this.state.selectedItem === 11 || this.state.selectedItem === 12 ? "on" : "off"}>constructed java microservice to process polygon coordinates and enable development of map drilldown features.</li>
+                                <li className={this.state.selectedItem === 13 ? "on" : "off"}>pioneered data visualization using tableau and crafted dashboards to deliver key business insights. the dashboards were demoed at the mhlc international conference.</li>
                             </ul>
                         </span>
                     </div>

@@ -24,14 +24,15 @@ class Projects extends React.Component {
 
                             <CardMedia
                                 className="media"
-                                image="resources/refactoredspoon.png"
+                                image="resources/projects/refactoredspoon.png"
                                 title="refactored spoon"
                             />
                             <CardContent>
                                 <Typography variant="body2" color="textSecondary" component="p">
                                     <div>a friendly web app to track daily meals, store saved meals and generate nutrition reports from USDA database</div>
                                     <br></br>
-                                    <span><i>tech: mongodb, express, angular, nodejs</i></span>
+                                    <br></br>
+                                    <span><i>tech: mongodb, express, angular, node</i></span>
                                 </Typography>
                             </CardContent>
 
@@ -51,7 +52,7 @@ class Projects extends React.Component {
                             />
                             <CardMedia
                                 className="media"
-                                image="resources/hpsorting.png"
+                                image="resources/projects/hpsorting.png"
                                 title="harry potter hangman"
                             />
                             <CardContent>
@@ -78,7 +79,7 @@ class Projects extends React.Component {
                             />
                             <CardMedia
                                 className="media"
-                                image="resources/fruityfun.gif"
+                                image="resources/projects/fruityfun.gif"
                                 title="fruity fun"
                             />
                             <CardContent>
@@ -86,12 +87,40 @@ class Projects extends React.Component {
                                     <div>classic connect-4 with autoshuffle and hint features on the arduino</div>
                                     <div>my first ever programming project!</div>
                                     <br></br>
+                                    <br></br>
                                     <span><i>tech: c, arduino</i></span>
                                 </Typography>
                             </CardContent>
 
                             <CardActions disableSpacing>
                                 <a href="https://github.com/beini19/fruity-fun">
+                                    <IconButton aria-label="source code">
+                                        <CodeIcon className="code-icon"></CodeIcon>
+                                    </IconButton>
+                                </a>
+                            </CardActions>
+                        </Card>
+
+                        <Card className="card">
+                            <CardHeader
+                                title="docker jig"
+                                subheader="automated load testing solution"
+                            />
+                            <CardMedia
+                                className="media"
+                                image="resources/projects/dockerjig.jpg"
+                                title="fruity fun"
+                            />
+                            <CardContent>
+                                <Typography variant="body2" color="textSecondary" component="p">
+                                    <div>a classic load testing setup consisting of <b>j</b>meter, <b>i</b>nfluxdb, and <b>g</b>rafana, that leverages the power of docker-compose to eliminate manual setup for users</div>
+                                    <br></br>
+                                    <span><i>tech: docker, jmeter, influxdb, grafana</i></span>
+                                </Typography>
+                            </CardContent>
+
+                            <CardActions disableSpacing>
+                                <a href="https://github.com/jlight99/docker-jig">
                                     <IconButton aria-label="source code">
                                         <CodeIcon className="code-icon"></CodeIcon>
                                     </IconButton>

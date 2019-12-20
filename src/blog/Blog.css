@@ -27,4 +27,19 @@
     padding: 6px;
     font-size: 18px;
     color: #5680e9;
+    text-align: left;
+    align-items: flex-start;
+}
+
+.root {
+    max-width: 50vw;   
+}
+
+.root-item {
+    margin-left: 25vw;
+    display: inline;
+}
+
+.inline {
+    display: 'inline';
 }
