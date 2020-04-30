@@ -2,19 +2,19 @@
     margin: 20px;
     font-size: 36px;
     display: inline-block;
-    background-color: white;
+    background-color: rgba(255,255,255,0.5);
     width: 60px;
     height: 48px;
-    padding-top: 1.6vh;
+    padding-top: 1vh;
+    padding-bottom:0.5vh;
     border-radius: 50%;
-    border: #5680e9 solid 0.12em;
-    top: 0px;
-  }
-
-  .contact-info {
-    padding-top: 2vh;
+    border: #003366 solid 0.1em;
   }
   
   .contact-item:hover {
     transform: scale(1.1);
+  }
+
+  .mat-tooltip {
+    font-size:30px;
   }

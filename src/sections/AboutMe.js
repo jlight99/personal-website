@@ -11,10 +11,10 @@ class AboutMe extends React.Component {
                 <span className="about-section">
                 <div className="hi">hey, i'm ellen!</div>
                 <div className="about-text">
-                    <div>i study software engineering at the university of waterloo. in my spare time, i like to play around with new technologies and build random stuff.</div>
-                    <br></br>
-                    <div>aside from programming, i also enjoy playing violin, writing, and long distance running.</div>
-                    <div>audiobooks are my guilty pleasure!</div>
+                    <div>
+                        i study software engineering at the university of waterloo
+                        <br></br>
+                        in my free time, i enjoy writing, running, and playing violin</div>
                 </div>
                 </span>
                 <ContactInfo />

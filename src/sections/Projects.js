@@ -7,6 +7,7 @@ import CardContent from '@material-ui/core/CardContent';
 import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 import CodeIcon from '@material-ui/icons/Code';
+import Tooltip from '@material-ui/core/Tooltip';
 import './Projects.css';
 
 class Projects extends React.Component {
@@ -18,7 +19,7 @@ class Projects extends React.Component {
                     <span className="projects">
                         <Card className="card">
                             <CardHeader
-                                title="refactored spoon"
+                                title="Refactored Spoon"
                                 subheader="food journal web app"
                             />
 
@@ -29,24 +30,57 @@ class Projects extends React.Component {
                             />
                             <CardContent>
                                 <Typography variant="body2" color="textSecondary" component="p">
-                                    <div>a friendly web app to track daily meals, store saved meals and generate nutrition reports from USDA database</div>
+                                    <div>friendly web app to track daily meals and generate nutrition reports using the USDA database</div>
                                     <br></br>
-                                    <span><i>tech: mongodb, express, angular, nodejs</i></span>
+                                    <span><i>tech: MongoDB, Express, Angular, Node</i></span>
                                 </Typography>
                             </CardContent>
 
                             <CardActions disableSpacing>
+                            <Tooltip title="check it out on github!">
                                 <a href="https://github.com/jlight99/refactored-spoon">
                                     <IconButton aria-label="source code">
                                         <CodeIcon className="code-icon"></CodeIcon>
                                     </IconButton>
                                 </a>
+                            </Tooltip>
                             </CardActions>
                         </Card>
 
                         <Card className="card">
                             <CardHeader
-                                title="harry potter hangman"
+                                title="Docker JIG"
+                                subheader="automated load-testing"
+                            />
+                            <CardMedia
+                                className="media"
+                                image="resources/dockerjig.png"
+                                title="docker jig"
+                            />
+                            <CardContent>
+                                <Typography variant="body2" color="textSecondary" component="p">
+                                    <div>
+                                        classic load-testing solution (JMeter, InfluxDB, Grafana) automated with Docker to eliminate manual setup!
+                                    </div>
+                                    <br></br>
+                                    <span><i>tech: Docker JMeter, InfluxDB, Grafana</i></span>
+                                </Typography>
+                            </CardContent>
+
+                            <CardActions disableSpacing>
+                            <Tooltip title="check it out on github!">
+                                <a href="https://github.com/jlight99/docker-jig">
+                                    <IconButton aria-label="source code">
+                                        <CodeIcon className="code-icon"></CodeIcon>
+                                    </IconButton>
+                                </a>
+                                </Tooltip>
+                            </CardActions>
+                        </Card>
+
+                        <Card className="card">
+                            <CardHeader
+                                title="Harry Potter Hangman"
                                 subheader="desktop hp-themed hangman"
                             />
                             <CardMedia
@@ -58,22 +92,24 @@ class Projects extends React.Component {
                                 <Typography variant="body2" color="textSecondary" component="p">
                                     <div>fun desktop app that tests users' harry potter knowledge by challenging them to identify mystery characters using clues!</div>
                                     <br></br>
-                                    <span><i>tech: java, swing</i></span>
+                                    <span><i>tech: Java, Swing</i></span>
                                 </Typography>
                             </CardContent>
 
                             <CardActions disableSpacing>
+                            <Tooltip title="check it out on github!">
                                 <a href="https://github.com/jlight99/Harry-Potter-Hangman">
                                     <IconButton aria-label="source code">
                                         <CodeIcon className="code-icon"></CodeIcon>
                                     </IconButton>
                                 </a>
+                                </Tooltip>
                             </CardActions>
                         </Card>
 
                         <Card className="card">
                             <CardHeader
-                                title="fruity fun"
+                                title="Fruity Fun"
                                 subheader="connect-4 with fruits on arduino"
                             />
                             <CardMedia
@@ -83,19 +119,21 @@ class Projects extends React.Component {
                             />
                             <CardContent>
                                 <Typography variant="body2" color="textSecondary" component="p">
-                                    <div>classic connect-4 with autoshuffle and hint features on the arduino</div>
+                                    <div>fruit-themed connect-4 with autoshuffle and hint features on the arduino.</div>
                                     <div>my first ever programming project!</div>
                                     <br></br>
-                                    <span><i>tech: c, arduino</i></span>
+                                    <span><i>tech: C, Arduino</i></span>
                                 </Typography>
                             </CardContent>
 
                             <CardActions disableSpacing>
+                            <Tooltip title="check it out on github!">
                                 <a href="https://github.com/beini19/fruity-fun">
                                     <IconButton aria-label="source code">
                                         <CodeIcon className="code-icon"></CodeIcon>
                                     </IconButton>
                                 </a>
+                            </Tooltip>
                             </CardActions>
                         </Card>
                     </span>

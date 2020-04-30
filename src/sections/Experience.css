@@ -9,50 +9,76 @@
 
 .experience-header {
     font-size: 54px;
-    padding: 16px 0;
+    padding: 1vh 0;
 }
 
-.experience-image {
-    float: left;
-    width: 18vw;
-    text-align: left;
+.experience-title {
+    font-size: 36px;
+    padding-right: 70px;
+}
+
+.experience-img-textnow {
+    max-width: 136px;
+    max-height: 136px;
+    width: auto;
+    height: auto;
+    vertical-align: middle;
+    padding-bottom: 0.2em;
+}
+
+.experience-img-sap {
+    max-width: 100px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+    vertical-align: middle;
+    padding-bottom: 0.5em;
+}
+
+.experience-img-dematic {
+    max-width: 150px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+    vertical-align: middle;
+    padding-bottom: 29px;
+}
+
+.experience-date-textnow {
+    float: right;
+    padding-top:3.6em;
+}
+
+.experience-date-sap {
+    float: right;
+    padding-top:2.4em;
+}
+
+.experience-date-dematic {
+    float: right;
+    padding-top:3em;
+}
+
+.at {
+    font-size: 20px;
 }
 
 h3 { 
-    color: #5680e9; 
-    font-family: 'Trocchi'; 
     font-size: 36px; 
     font-weight: normal; 
     line-height: 48px; 
     margin: 0; 
 }
 
-.position {
-    color: #5680e9;
-    font-size: 21px;
-}
-
-.date {
-    color: #5680e9;
-    font-size: 18px;
+.experience-body {
     float: right;
+    width: 60vw;
+    text-align: left;
 }
 
 .experience-text {
-    float: right;
-    width: 36vw;
-    text-align: left;
-    font-family: "Trocchi";
-}
-
-ul {
-    padding: 1px 0;
-    list-style-type: square;
-}
-
-li {
     padding: 3px 0;
-    font-size: 17px;
+    font-size: 1.2em;
 }
 
 .on {
@@ -65,31 +91,9 @@ li {
     padding: 0.2em;
 }
 
-.experience-date {
-    font-size: 20px;
-}
-
-.experience-img {
-    width: 12vw;
-    height: 12vw;
-}
-
 .experience-tech {
-    padding: 3vw 3vw;
-    width: 10vw;
-    text-align: right;
-    float: right;
-}
-
-.experience-tech ul {
-    padding-top: 2vw;
-    list-style-type: none;
-}
-
-.experience-tech li:hover {
-    cursor: default;
-    color: rgb(138,43,226);
-    font-weight: bold;
+    font-size: 1.2em;
+    padding-bottom: 1em;
 }
 
 .experience-item {

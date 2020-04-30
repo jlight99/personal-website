@@ -4,17 +4,21 @@
 
 .projects-header {
     font-size: 54px;
-    padding: 10vh 5vw 5vh 5vw;
+    padding: 8vh 5vw 6vh 5vw;
 }
 
 .projects {
     display: flex;
-    padding: 0vh 8vw;
+    padding: 0vh 5vw;
 }
 
 .card {
-    margin: 2vh 3vw;
+    margin: 2vh 1.2vw;
     width: 24vw;
+}
+
+.card:hover {
+    transform: scale(1.05);
 }
 
 .media {

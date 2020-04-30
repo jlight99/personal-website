@@ -5,15 +5,14 @@
     align-items: center;
     flex-direction: column;
     height: 100vh;
-    background-image: url('../../public/resources/ribbon3.png');
+    background-image: url('../../public/resources/Iceland_copy.JPG');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
 }
 
 .hi {
-    font-size: 54px;
+    font-size: 48px;
     padding-bottom: 2vh;
 }
 
@@ -23,13 +22,12 @@
     justify-content: start;
     text-align: center;
     font-size: 1.24em;
-    border-block: 3px;
 }
 
 .about-section {
-    padding: 2em;
+    padding: 1.7em 1.7em 2.4em 1.7em;
+    /* margin-bottom: 3em; */
     box-sizing: content-box;
-    /* background-color: rgba(199, 200, 228, 0.5); */
-    /* background-color: rgb(221,160,236, 0.4); */
-    background-color: rgba(132, 206, 235, 0.4);
+    border-radius: 1.6em;
+    background-color: rgba(255,255,255,0.48);
 }
