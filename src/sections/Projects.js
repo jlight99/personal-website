@@ -19,6 +19,7 @@ class Projects extends React.Component {
                     <span className="projects">
                         <Card className="card">
                             <CardHeader
+                                className="card-header"
                                 title="Refactored Spoon"
                                 subheader="food journal web app"
                             />
@@ -32,23 +33,24 @@ class Projects extends React.Component {
                                 <Typography variant="body2" color="textSecondary" component="p">
                                     <div>friendly web app to track daily meals and generate nutrition reports using the USDA database</div>
                                     <br></br>
-                                    <span><i>tech: MongoDB, Express, Angular, Node</i></span>
+                                    <span><i>MongoDB, Express, Angular, Node</i></span>
                                 </Typography>
                             </CardContent>
 
                             <CardActions disableSpacing>
-                            <Tooltip title="check it out on github!">
-                                <a href="https://github.com/jlight99/refactored-spoon">
-                                    <IconButton aria-label="source code">
-                                        <CodeIcon className="code-icon"></CodeIcon>
-                                    </IconButton>
-                                </a>
-                            </Tooltip>
+                                <Tooltip title="check it out on github!">
+                                    <a href="https://github.com/jlight99/refactored-spoon">
+                                        <IconButton aria-label="source code">
+                                            <CodeIcon className="code-icon"></CodeIcon>
+                                        </IconButton>
+                                    </a>
+                                </Tooltip>
                             </CardActions>
                         </Card>
 
                         <Card className="card">
                             <CardHeader
+                                className="card-header"
                                 title="Docker JIG"
                                 subheader="automated load-testing"
                             />
@@ -63,23 +65,24 @@ class Projects extends React.Component {
                                         classic load-testing solution (JMeter, InfluxDB, Grafana) automated with Docker to eliminate manual setup!
                                     </div>
                                     <br></br>
-                                    <span><i>tech: Docker JMeter, InfluxDB, Grafana</i></span>
+                                    <span><i>Docker, JMeter, InfluxDB, Grafana</i></span>
                                 </Typography>
                             </CardContent>
 
                             <CardActions disableSpacing>
-                            <Tooltip title="check it out on github!">
-                                <a href="https://github.com/jlight99/docker-jig">
-                                    <IconButton aria-label="source code">
-                                        <CodeIcon className="code-icon"></CodeIcon>
-                                    </IconButton>
-                                </a>
+                                <Tooltip title="check it out on github!">
+                                    <a href="https://github.com/jlight99/docker-jig">
+                                        <IconButton aria-label="source code">
+                                            <CodeIcon className="code-icon"></CodeIcon>
+                                        </IconButton>
+                                    </a>
                                 </Tooltip>
                             </CardActions>
                         </Card>
 
                         <Card className="card">
                             <CardHeader
+                                className="card-header"
                                 title="Harry Potter Hangman"
                                 subheader="desktop hp-themed hangman"
                             />
@@ -90,25 +93,26 @@ class Projects extends React.Component {
                             />
                             <CardContent>
                                 <Typography variant="body2" color="textSecondary" component="p">
-                                    <div>fun desktop app that tests users' harry potter knowledge by challenging them to identify mystery characters using clues!</div>
+                                    <div>fun desktop app that tests users' harry potter knowledge by challenging them to identify mystery characters!</div>
                                     <br></br>
-                                    <span><i>tech: Java, Swing</i></span>
+                                    <span><i>Java, Swing</i></span>
                                 </Typography>
                             </CardContent>
 
                             <CardActions disableSpacing>
-                            <Tooltip title="check it out on github!">
-                                <a href="https://github.com/jlight99/Harry-Potter-Hangman">
-                                    <IconButton aria-label="source code">
-                                        <CodeIcon className="code-icon"></CodeIcon>
-                                    </IconButton>
-                                </a>
+                                <Tooltip title="check it out on github!">
+                                    <a href="https://github.com/jlight99/Harry-Potter-Hangman">
+                                        <IconButton aria-label="source code">
+                                            <CodeIcon className="code-icon"></CodeIcon>
+                                        </IconButton>
+                                    </a>
                                 </Tooltip>
                             </CardActions>
                         </Card>
 
                         <Card className="card">
                             <CardHeader
+                                className="card-header"
                                 title="Fruity Fun"
                                 subheader="connect-4 with fruits on arduino"
                             />
@@ -122,18 +126,18 @@ class Projects extends React.Component {
                                     <div>fruit-themed connect-4 with autoshuffle and hint features on the arduino.</div>
                                     <div>my first ever programming project!</div>
                                     <br></br>
-                                    <span><i>tech: C, Arduino</i></span>
+                                    <span><i>C, Arduino</i></span>
                                 </Typography>
                             </CardContent>
 
                             <CardActions disableSpacing>
-                            <Tooltip title="check it out on github!">
-                                <a href="https://github.com/beini19/fruity-fun">
-                                    <IconButton aria-label="source code">
-                                        <CodeIcon className="code-icon"></CodeIcon>
-                                    </IconButton>
-                                </a>
-                            </Tooltip>
+                                <Tooltip title="check it out on github!">
+                                    <a href="https://github.com/beini19/fruity-fun">
+                                        <IconButton aria-label="source code">
+                                            <CodeIcon className="code-icon"></CodeIcon>
+                                        </IconButton>
+                                    </a>
+                                </Tooltip>
                             </CardActions>
                         </Card>
                     </span>

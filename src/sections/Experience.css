@@ -1,15 +1,17 @@
 .experience-section {
     justify-content: center;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    flex-direction: column;
-    background-color: white;
-    padding-top: 8vh;
+    overflow-wrap: normal;
 }
 
 .experience-header {
     font-size: 54px;
-    padding: 1vh 0;
+}
+
+.position-details {
+    display: inline-block;
 }
 
 .experience-title {
@@ -42,6 +44,13 @@
     height: auto;
     vertical-align: middle;
     padding-bottom: 29px;
+}
+
+.experience-date {
+    font-size: 1em;
+    text-align: right;
+    display: flex;
+    justify-self: end;
 }
 
 .experience-date-textnow {
@@ -97,5 +106,14 @@ h3 {
 }
 
 .experience-item {
-    padding-top: 2vh;
+    margin: 2vw;
+    padding: 2vw;
+    border: 2px solid #4B0082;
+}
+
+.toggle-expand {
+    cursor: pointer;
+}
+.toggle-expand:hover {
+    text-decoration: underline #8860d0;
 }

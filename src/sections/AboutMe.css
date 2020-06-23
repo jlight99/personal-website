@@ -1,33 +1,41 @@
 .about {
     color: black;
-    justify-content: center;
     display: flex;
-    align-items: center;
-    flex-direction: column;
-    height: 100vh;
-    background-image: url('../../public/resources/Iceland_copy.JPG');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    margin: 12%;
+    height: 100%;
+    min-height: 100%;
+    position: relative;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .hi {
-    font-size: 48px;
-    padding-bottom: 2vh;
+    font-size: 3vw;
+    padding-bottom: 5vh;
+    text-align: left;
 }
 
 .about-text {
-    flex-direction: row;
     max-width: 49vw;
-    justify-content: start;
-    text-align: center;
-    font-size: 1.24em;
+    font-size: 1.6vw;
+    text-align: left;
+    margin: 0.3em 0;
 }
 
 .about-section {
-    padding: 1.7em 1.7em 2.4em 1.7em;
-    /* margin-bottom: 3em; */
+    padding: 1em 1em;
     box-sizing: content-box;
     border-radius: 1.6em;
-    background-color: rgba(255,255,255,0.48);
+    background-color: rgba(255,255,255);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: left;
+}
+
+#picture-of-me img {
+    max-width: 32vw;
+    margin-right: 5vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.19);
 }

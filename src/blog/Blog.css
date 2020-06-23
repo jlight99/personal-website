@@ -4,7 +4,8 @@
 }
 
 .headline {
-    padding: 100px;
+    padding-top: 88px;
+    padding-bottom: 18px;
     font-size: 54px;
 }
 
@@ -16,7 +17,7 @@
 }
 
 .paris-img {
-    max-width: 36vw;
+    max-height: 49vh;
 }
 
 .blog-post {
