@@ -7,6 +7,7 @@ import CardContent from '@material-ui/core/CardContent';
 import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 import CodeIcon from '@material-ui/icons/Code';
+import FastfoodIcon from '@material-ui/icons/Fastfood';
 import Tooltip from '@material-ui/core/Tooltip';
 import './Projects.css';
 
@@ -21,19 +22,19 @@ class Projects extends React.Component {
                             <CardHeader
                                 className="card-header"
                                 title="Refactored Spoon"
-                                subheader="food journal web app"
+                                subheader="nutrition-tracker web app"
                             />
 
                             <CardMedia
                                 className="media"
-                                image="resources/refactoredspoon.png"
+                                image="resources/refactored-spoon-meals.png"
                                 title="refactored spoon"
                             />
                             <CardContent>
                                 <Typography variant="body2" color="textSecondary" component="p">
                                     <div>friendly web app to track daily meals and generate nutrition reports using the USDA database</div>
                                     <br></br>
-                                    <span><i>MongoDB, Express, Angular, Node</i></span>
+                                    <span><i>React, Go, MongoDB</i></span>
                                 </Typography>
                             </CardContent>
 
@@ -42,6 +43,13 @@ class Projects extends React.Component {
                                     <a href="https://github.com/jlight99/refactored-spoon">
                                         <IconButton aria-label="source code">
                                             <CodeIcon className="code-icon"></CodeIcon>
+                                        </IconButton>
+                                    </a>
+                                </Tooltip>
+                                <Tooltip title="visit the running app!">
+                                    <a href="https://jlight99.github.io/refactored-spoon">
+                                        <IconButton aria-label="source code">
+                                            <FastfoodIcon className="code-icon"></FastfoodIcon>
                                         </IconButton>
                                     </a>
                                 </Tooltip>

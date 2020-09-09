@@ -12,11 +12,18 @@ class Experience extends React.Component {
                     <ExperienceItem
                         jobTitle="software developer intern"
                         startDate="may 2020"
-                        endDate="present"
+                        endDate="august 2020"
                         techStack="React, Python, GraphQL"
                         logoSrc="resources/gem.png"
-                        description="I am currently working at Gem, a Series A startup whose product increases the efficiency and effectiveness of sourcing and recruiting,
-                            and provides insights into all stages of the hiring pipeline."
+                        description="My most recent co-op was at Gem, a Series B startup whose product increases the efficiency and effectiveness of sourcing and recruiting,
+                            and provides insights into all stages of the hiring pipeline. The highlight of the term for me was working on the Free for Startups program launch.
+                            Free for Startups is a program where startups can use Gem for free, and my role was to build the webpage (https://gem.com/startups) and signup flow for the program.
+                            This was a really cool project because we were trying to launch the program as quickly as possible, so I got to experience the adrenaline and pressure of
+                            working with a deadline, and it was also relatively high-profile, so I got to work with and deliver status reports to key stakeholders including the co-founders.
+                            Another fun project I built out during this term was enabling editing of candidate work/eduation experiences. Sourcing is a key feature of Gem's product
+                            and we create profiles for candidates who are sourced through Gem. These candidate profiles include relevant information about the candidate such as their work
+                            and education history, and this information was previously immutable and error-prone, so I implemented the ability to add, edit, and delete experiences.
+                            To complement this project, I also wrote a script that parsed the resumes of all existing candidates (>200K) without work/education experiences and backfilled them."
                     />
 
                     <ExperienceItem
