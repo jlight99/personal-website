@@ -9,6 +9,10 @@
     font-size: 54px;
 }
 
+.headline a{
+    color: black;
+}
+
 .intro {
     padding: 0 20vw 5vh 20vw;
     justify-content: center;
@@ -21,7 +25,20 @@
 }
 
 .blog-post {
-    padding: 18px;
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.blog-post .picture {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.blog-post .picture img {
+    max-width: 36vw;
 }
 
 .blog-title {

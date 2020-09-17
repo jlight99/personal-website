@@ -8,6 +8,7 @@ import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 import CodeIcon from '@material-ui/icons/Code';
 import FastfoodIcon from '@material-ui/icons/Fastfood';
+import MenuBookIcon from '@material-ui/icons/MenuBook';
 import Tooltip from '@material-ui/core/Tooltip';
 import './Projects.css';
 
@@ -53,6 +54,13 @@ class Projects extends React.Component {
                                         </IconButton>
                                     </a>
                                 </Tooltip>
+                                <Tooltip title="read about my experiences building the app!">
+                                    <a href="https://medium.com/@ellenhuang523/building-a-nutrition-tracking-app-with-react-go-and-mongodb-9f8da9e39e66">
+                                        <IconButton aria-label="source code">
+                                            <MenuBookIcon className="code-icon"></MenuBookIcon>
+                                        </IconButton>
+                                    </a>
+                                </Tooltip>
                             </CardActions>
                         </Card>
 
@@ -82,6 +90,13 @@ class Projects extends React.Component {
                                     <a href="https://github.com/jlight99/docker-jig">
                                         <IconButton aria-label="source code">
                                             <CodeIcon className="code-icon"></CodeIcon>
+                                        </IconButton>
+                                    </a>
+                                </Tooltip>
+                                <Tooltip title="read about my experiences building this project!">
+                                    <a href="https://medium.com/@ellenhuang523/a-docker-solution-to-jmeter-influxdb-grafana-performance-testing-568848de7a0f">
+                                        <IconButton aria-label="source code">
+                                            <MenuBookIcon className="code-icon"></MenuBookIcon>
                                         </IconButton>
                                     </a>
                                 </Tooltip>
