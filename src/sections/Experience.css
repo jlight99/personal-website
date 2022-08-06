@@ -108,7 +108,8 @@ h3 {
 .experience-item {
     margin: 2vw;
     padding: 2vw;
-    border: 2px solid #4B0082;
+    border: 3px solid #4B0082;
+    box-shadow: 6px 6px rgb(147,112,219, 0.7);
 }
 
 .toggle-expand {

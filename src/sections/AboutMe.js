@@ -10,13 +10,13 @@ class AboutMe extends React.Component {
                 <span className="about">
                     <span className="about-inner">
                         <span id="picture-of-me">
-                            <img src="/resources/IMG_0272.JPG"></img>
+                            <img src="/resources/profilepic.JPG"></img>
                         </span>
                         <span className="about-section">
-                            <div className="hi">hey, i'm ellen!</div>
+                            <div className="hi">Hi, I'm Ellen!</div>
                             <div className="about-text">
-                                i study software engineering at the university of waterloo.
-                                in my free time, i enjoy learning new languages, running, and playing music.
+                                I recently graduated with a Bachelor's of Software Engineering from the University of Waterloo.
+                                Things that make me happy include food, languages, running, music, and travelling.
                         </div>
                             <span className="contact-info"><ContactInfo /></span>
                         </span>

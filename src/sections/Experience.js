@@ -10,12 +10,32 @@ class Experience extends React.Component {
                 <span className="experience-section">
 
                     <ExperienceItem
-                        jobTitle="software developer intern"
-                        startDate="may 2020"
-                        endDate="august 2020"
+                        jobTitle="Software Engineer Intern"
+                        startDate="August 2021"
+                        endDate="November 2021"
+                        techStack="Go"
+                        logoSrc="resources/lyft.png"
+                        description="My final co-op was at Lyft, working with the Dispatch Infrastructure team. I worked on improving the infrastructure of the core Dispatch logic by automating
+                            regression testing."
+                    />
+
+                    <ExperienceItem
+                        jobTitle="Software Engineer Intern"
+                        startDate="January 2021"
+                        endDate="April 2021"
+                        techStack="C++, Python"
+                        logoSrc="resources/facebook.png"
+                        description="My fifth co-op was at Facebook, working under the Reality Labs division. My work primarily focused on C++-Python interoperability, and using Pybind to enable
+                            Python projects to be used within C++ programs."
+                    />
+
+                    <ExperienceItem
+                        jobTitle="Software Developer Intern"
+                        startDate="May 2020"
+                        endDate="August 2020"
                         techStack="React, Python, GraphQL"
                         logoSrc="resources/gem.png"
-                        description="My most recent co-op was at Gem, a Series B startup whose product increases the efficiency and effectiveness of sourcing and recruiting,
+                        description="My fourth co-op was at Gem, a Series B startup whose product increases the efficiency and effectiveness of sourcing and recruiting,
                             and provides insights into all stages of the hiring pipeline. The highlight of the term for me was working on the Free for Startups program launch.
                             Free for Startups is a program where startups can use Gem for free, and my role was to build the webpage (https://gem.com/startups) and signup flow for the program.
                             This was a really cool project because we were trying to launch the program as quickly as possible, so I got to experience the adrenaline and pressure of
@@ -27,9 +47,9 @@ class Experience extends React.Component {
                     />
 
                     <ExperienceItem
-                        jobTitle="backend developer intern"
-                        startDate="september 2019"
-                        endDate="december 2019"
+                        jobTitle="Backend Developer Intern"
+                        startDate="September 2019"
+                        endDate="December 2019"
                         techStack="Golang, gRPC/Protobuf, SQL, Redis"
                         logoSrc="resources/textnow_name.jpeg"
                         description="My third co-op was at TextNow, a 10-year-old startup whose main product was a free calling and texting app.
@@ -45,9 +65,9 @@ class Experience extends React.Component {
                     />
 
                     <ExperienceItem
-                        jobTitle="full-stack developer intern"
-                        startDate="january 2019"
-                        endDate="april 2019"
+                        jobTitle="Full-stack Developer Intern"
+                        startDate="January 2019"
+                        endDate="April 2019"
                         techStack="Java, Angular, Docker, SQL"
                         logoSrc="resources/sap.png"
                         description="My second co-op was at SAP, where I worked on the Commerce Cloud. Specifically, my team worked on the
@@ -59,9 +79,9 @@ class Experience extends React.Component {
                     />
 
                     <ExperienceItem
-                        jobTitle="software developer intern"
-                        startDate="may 2018"
-                        endDate="august 2018"
+                        jobTitle="Software Developer Intern"
+                        startDate="May 2018"
+                        endDate="August 2018"
                         techStack="Java, Tableau, SQL"
                         logoSrc="resources/Dematic_Logo_Rect.png"
                         description="My very first co-op was at Dematic, a supply chain solutions company, where my team led the migration of
