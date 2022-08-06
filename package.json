@@ -9,14 +9,14 @@
     "@fortawesome/react-fontawesome": "^0.1.5",
     "@material-ui/core": "^4.5.2",
     "@material-ui/icons": "^4.5.1",
-    "fas": "^0.3.6",
     "gh-pages": "^2.1.1",
     "react": "^16.10.1",
     "react-dom": "^16.10.1",
-    "react-router-dom": "^5.1.2",
-    "react-scripts": "^3.4.1"
+    "react-router-dom": "^5.1.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "react-scripts": "^5.0.1"
+  },
   "homepage": "https://ellenhuang.dev",
   "scripts": {
     "start": "react-scripts start",
