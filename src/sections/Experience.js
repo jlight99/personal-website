@@ -24,6 +24,7 @@ class Experience extends React.Component {
                         techStack="Go, Kubernetes"
                         logoSrc="resources/companies/lyft.png"
                         website="https://www.lyft.com/"
+                        showDescription={true}
                         description={
                             <div>
                                 My final co-op was at Lyft, a rideshare company innovating the transportation space.
