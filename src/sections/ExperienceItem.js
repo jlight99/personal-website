@@ -1,4 +1,7 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCog } from '@fortawesome/free-solid-svg-icons';
+
 import './Experience.css';
 
 class ExperienceItem extends React.Component {
@@ -19,16 +22,20 @@ class ExperienceItem extends React.Component {
         return (
             <div className="experience-item">
                 <span className="experience-body">
-                    <img className="experience-img-textnow" src={this.props.logoSrc} alt="textnow logo"></img>
+                    <img className="experience-img" src={this.props.logoSrc} alt="company logo"></img>
                     <div>
                         <span className="experience-title">{this.props.jobTitle}</span>
                         <span className="experience-date">{this.props.startDate} - {this.props.endDate}</span>
                     </div>
-                    <div className="experience-tech">tech stack: {this.props.techStack}</div>
+                    <div className="experience-tech">
+                        <FontAwesomeIcon icon={faCog} style={{ paddingRight: "5px" }}/>
+                        {this.props.techStack}
+                    </div>
 
                     {this.state.showDescription && <div className="experience-text">{this.props.description}</div>}
+                    <br/>
                     <a className="toggle-expand" onClick={this.toggleDescription}>
-                        {this.state.showDescription ? "read less" : "read more"}
+                        {this.state.showDescription ? "Read less" : "Read more"}
                     </a>
                 </span>
             </div>

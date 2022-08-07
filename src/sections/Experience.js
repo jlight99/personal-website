@@ -6,7 +6,7 @@ class Experience extends React.Component {
     render() {
         return (
             <a id="experience">
-                <div className="experience-header">experience</div>
+                <div className="experience-header">Experience</div>
                 <span className="experience-section">
 
                     <ExperienceItem
