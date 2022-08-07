@@ -9,6 +9,14 @@ class Experience extends React.Component {
                 <div className="experience-header">Experience</div>
                 <span className="experience-section">
 
+                    <div className="experience-intro">
+                        Over the course of university, I was fortunate to have had six internships,
+                        through which I got the chance to work at companies of varying sizes ranging from Series B startups to Big Tech,
+                        and work across various sectors from e-commerce to rideshare to AR/VR. I've worked as a data visualizer,
+                        a full-stack developer, a backend developer, and an infrastructure engineer, programming in Go,
+                        Python, C++, JavaScript, and Java. These internships were as much a part of my university education as any of my courses.
+                    </div>
+
                     <ExperienceItem
                         jobTitle="Software Engineer Intern"
                         startDate="August 2021"
@@ -55,7 +63,7 @@ class Experience extends React.Component {
                         jobTitle="Software Engineer Intern"
                         startDate="January 2021"
                         endDate="April 2021"
-                        techStack="C++, Python"
+                        techStack="C++, Python, Pybind"
                         logoSrc="resources/facebook.png"
                         website="https://www.facebook.com/"
                         description={

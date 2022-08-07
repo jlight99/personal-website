@@ -7,6 +7,11 @@
     padding: 3em 0 1em 0;
 }
 
+.projects-intro {
+    padding: 0 12% 2em 12%;
+    font-size: 1.4em;
+}
+
 .projects {
     display: flex;
     flex-wrap: wrap;

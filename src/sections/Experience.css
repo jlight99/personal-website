@@ -19,6 +19,11 @@
     font-size: 1.8em;
 }
 
+.experience-intro {
+    padding: 0 12% 1.5em 12%;
+    font-size: 1.4em;
+}
+
 .experience-img {
     max-width: 10em;
     max-height: 10em;
