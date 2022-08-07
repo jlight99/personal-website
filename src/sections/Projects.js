@@ -16,6 +16,8 @@ class Projects extends React.Component {
                 <span className="projects-section">
                     <div className="projects-header">Projects</div>
 
+                    <img src="resources/projects-pic.jpg" style={{ width: "30%" }}/>
+
                     <div className="projects-intro">
                         Here are a few fun projects I worked on!
                     </div>

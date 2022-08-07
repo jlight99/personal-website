@@ -9,6 +9,8 @@ class Experience extends React.Component {
                 <div className="experience-header">Experience</div>
                 <span className="experience-section">
 
+                    <img src="resources/internship-pic.jpg" style={{ width: "30%" }}/>
+
                     <div className="experience-intro">
                         Over the course of university, I was fortunate to have had six internships,
                         through which I got the chance to work at companies of varying sizes ranging from Series B startups to Big Tech,
@@ -24,6 +26,7 @@ class Experience extends React.Component {
                         techStack="Go, Kubernetes"
                         logoSrc="resources/companies/lyft.png"
                         website="https://www.lyft.com/"
+                        showDescription={true}
                         description={
                             <div>
                                 My final co-op was at Lyft, a rideshare company innovating the transportation space.

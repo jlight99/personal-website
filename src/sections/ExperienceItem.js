@@ -8,7 +8,7 @@ class ExperienceItem extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            showDescription: true,
+            showDescription: this.props.showDescription,
         };
         this.toggleDescription = this.toggleDescription.bind(this);
 
