@@ -24,7 +24,7 @@ class Projects extends React.Component {
                         <ProjectItem
                             projectName="Refactored Spoon"
                             projectSubtitle="nutrition-tracker web app"
-                            projectImgPath="resources/refactored-spoon-meals.png"
+                            projectImgPath="resources/projects/refactored-spoon-meals.png"
                             projectImgName="refactored spoon"
                             projectDescription="friendly web app to track daily meals and generate nutrition reports using the USDA database"
                             projectTech="React, Go, MongoDB"
@@ -58,7 +58,7 @@ class Projects extends React.Component {
                         <ProjectItem
                             projectName="Docker JIG"
                             projectSubtitle="automated load-testing"
-                            projectImgPath="resources/dockerjig.png"
+                            projectImgPath="resources/projects/dockerjig.png"
                             projectImgName="docker jig"
                             projectDescription="classic load-testing solution (JMeter, InfluxDB, Grafana) automated with Docker to eliminate manual setup!"
                             projectTech="Docker, JMeter, InfluxDB, Grafana"
@@ -85,7 +85,7 @@ class Projects extends React.Component {
                         <ProjectItem
                             projectName="Harry Potter Hangman"
                             projectSubtitle="desktop hp-themed hangmag"
-                            projectImgPath="resources/hpsorting.png"
+                            projectImgPath="resources/projects/hpsorting.png"
                             projectImgName="harry potter hangman"
                             projectDescription="fun desktop app that tests users' harry potter knowledge by challenging them to identify mystery characters!"
                             projectTech="Java, Swing"
@@ -105,7 +105,7 @@ class Projects extends React.Component {
                         <ProjectItem
                             projectName="Fruity Fun"
                             projectSubtitle="connect-4 with fruits on arduino"
-                            projectImgPath="resources/fruityfun.gif"
+                            projectImgPath="resources/projects/fruityfun.gif"
                             projectImgName="fruity funn"
                             projectDescription="fruit-themed connect-4 with autoshuffle and hint features on the arduino. my first programming project!"
                             projectTech="C, Arduino"

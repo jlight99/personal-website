@@ -1,0 +1,22 @@
+.music-header {
+    font-size: 54px;
+    padding: 3em 0 1em 0;
+}
+
+.music-intro {
+    padding: 0 12% 1.5em 12%;
+    font-size: 1.4em;
+}
+
+.music-item {
+    padding: 1em 0;
+}
+
+.music-name {
+    font-size: 1.2em;
+    padding: 0.8em;
+}
+
+.music-gap {
+    height: 100px;
+}

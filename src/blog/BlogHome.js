@@ -28,7 +28,7 @@ class BlogHome extends React.Component {
                 <div className="blog-post">
                     <a href="https://medium.com/@ellenhuang523/a-docker-solution-to-jmeter-influxdb-grafana-performance-testing-568848de7a0f">
                         <span className="picture">
-                            <img src="resources/dockerjig.png" alt="DockerJIG blog post picture"></img>
+                            <img src="resources/projects/dockerjig.png" alt="DockerJIG blog post picture"></img>
                         </span>
                         <span className="medium-caption">
                             A Docker solution to JMeter + InfluxDB + Grafana performance testing

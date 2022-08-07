@@ -22,7 +22,7 @@ class Experience extends React.Component {
                         startDate="August 2021"
                         endDate="November 2021"
                         techStack="Go, Kubernetes"
-                        logoSrc="resources/lyft.png"
+                        logoSrc="resources/companies/lyft.png"
                         website="https://www.lyft.com/"
                         description={
                             <div>
@@ -64,7 +64,7 @@ class Experience extends React.Component {
                         startDate="January 2021"
                         endDate="April 2021"
                         techStack="C++, Python, Pybind"
-                        logoSrc="resources/facebook.png"
+                        logoSrc="resources/companies/facebook.png"
                         website="https://www.facebook.com/"
                         description={
                             <div>
@@ -96,7 +96,7 @@ class Experience extends React.Component {
                         startDate="May 2020"
                         endDate="August 2020"
                         techStack="React, Python, GraphQL"
-                        logoSrc="resources/gem.png"
+                        logoSrc="resources/companies/gem.png"
                         website="https://www.gem.com/"
                         description={
                             <div>
@@ -125,7 +125,7 @@ class Experience extends React.Component {
                         startDate="September 2019"
                         endDate="December 2019"
                         techStack="Golang, gRPC/Protobuf, SQL, Redis"
-                        logoSrc="resources/textnow_name.jpeg"
+                        logoSrc="resources/companies/textnow_name.jpeg"
                         website="https://www.textnow.com/"
                         description={
                             <div>
@@ -154,7 +154,7 @@ class Experience extends React.Component {
                         startDate="January 2019"
                         endDate="April 2019"
                         techStack="Java, Angular, Docker, SQL"
-                        logoSrc="resources/sap.png"
+                        logoSrc="resources/companies/sap.png"
                         website="https://www.sap.com/"
                         description={
                             <div>
@@ -173,7 +173,7 @@ class Experience extends React.Component {
                         startDate="May 2018"
                         endDate="August 2018"
                         techStack="Java, Tableau, SQL"
-                        logoSrc="resources/Dematic_Logo_Rect.png"
+                        logoSrc="resources/companies/Dematic_Logo_Rect.png"
                         website="https://www.dematic.com/"
                         description={
                             <div>

@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import Menu from './Menu';
 import AboutMe from './sections/AboutMe';
+import Acknowledgements from './sections/Acknowledgements';
 import Activities from './sections/Activities';
 import Experience from './sections/Experience';
+import Music from './sections/Music';
 import Projects from './sections/Projects';
-import Acknowledgements from './sections/Acknowledgements';
 
 class LandingPage extends Component {
     render() {
@@ -16,6 +17,7 @@ class LandingPage extends Component {
                     <Experience />
                     <Projects />
                     <Activities />
+                    <Music />
                     <Acknowledgements className="acknowledgements"/>
                 </div>
             </span>
