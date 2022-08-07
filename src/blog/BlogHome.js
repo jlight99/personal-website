@@ -1,6 +1,8 @@
 import React from 'react';
-import './Blog.css';
 import BlogMenu from './BlogMenu';
+// import mediumIcon from 'resources/medium-2177.svg' // depending on your folder structure
+
+import './Blog.css';
 
 class BlogHome extends React.Component {
     render() {
@@ -9,7 +11,8 @@ class BlogHome extends React.Component {
                 <BlogMenu />
                 <div className="headline">
                     <a href="https://medium.com/@ellenhuang523">
-                        find me on Medium!
+                        Find me on Medium!
+                        <img id='medium-icon' src="resources/medium-2177.svg" />
                     </a>
                 </div>
                 <div className="blog-post">
@@ -17,7 +20,9 @@ class BlogHome extends React.Component {
                         <span className="picture">
                             <img src="resources/ArchitectureDiagramGridless.png" alt="Refactored Spoon blog post picture"></img>
                         </span>
-                        Building a nutrition-tracking app with React, Go, and MongoDB
+                        <span className="medium-caption">
+                            Building a nutrition-tracking app with React, Go, and MongoDB
+                        </span>
                     </a>
                 </div>
                 <div className="blog-post">
@@ -25,7 +30,9 @@ class BlogHome extends React.Component {
                         <span className="picture">
                             <img src="resources/dockerjig.png" alt="DockerJIG blog post picture"></img>
                         </span>
-                        A Docker solution to JMeter + InfluxDB + Grafana performance testing
+                        <span className="medium-caption">
+                            A Docker solution to JMeter + InfluxDB + Grafana performance testing
+                        </span>
                     </a>
                 </div>
             </span>

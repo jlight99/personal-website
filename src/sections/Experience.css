@@ -8,6 +8,7 @@
 
 .experience-header {
     font-size: 54px;
+    padding-bottom: 1em;
 }
 
 .position-details {
@@ -30,7 +31,8 @@
 .experience-date {
     font-size: 1.3em;
     float: right;
-    color: rgb(128,113,255);
+    color: rgb(93, 63, 211);
+    padding-top: 0.4em;
 }
 
 .at {
@@ -79,6 +81,7 @@ h3 {
 
 .toggle-expand {
     cursor: pointer;
+    color: rgb(93, 63, 211);
 }
 .toggle-expand:hover {
     /* text-decoration: underline #8860d0; */

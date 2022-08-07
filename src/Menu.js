@@ -8,6 +8,7 @@ class Menu extends Component {
                 <a href="#about_me" className="section-header">Home</a>
                 <a href="#experience" className="section-header">Experience</a>
                 <a href="#projects" className="section-header">Projects</a>
+                <a href="/resources/EllenHuangResume.pdf" download className="section-header">Resume</a>
                 <a href="/blog" className="section-header">Blog</a>
             </span>
         )

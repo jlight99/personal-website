@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCog } from '@fortawesome/free-solid-svg-icons';
+import { faCog, faArrowCircleUp } from '@fortawesome/free-solid-svg-icons';
 
 import './Experience.css';
 
@@ -8,7 +8,7 @@ class ExperienceItem extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            showDescription: false,
+            showDescription: true,
         };
         this.toggleDescription = this.toggleDescription.bind(this);
 
@@ -22,10 +22,12 @@ class ExperienceItem extends React.Component {
         return (
             <div className="experience-item">
                 <span className="experience-body">
-                    <img className="experience-img" src={this.props.logoSrc} alt="company logo"></img>
+                    <a href={this.props.website}>
+                        <img className="experience-img" src={this.props.logoSrc} alt="company logo"></img>
+                    </a>
                     <div>
                         <span className="experience-title">{this.props.jobTitle}</span>
-                        <span className="experience-date">{this.props.startDate} - {this.props.endDate}</span>
+                        <span className="experience-date">{this.props.startDate} to {this.props.endDate}</span>
                     </div>
                     <div className="experience-tech">
                         <FontAwesomeIcon icon={faCog} style={{ paddingRight: "5px" }}/>
@@ -35,7 +37,7 @@ class ExperienceItem extends React.Component {
                     {this.state.showDescription && <div className="experience-text">{this.props.description}</div>}
                     <br/>
                     <a className="toggle-expand" onClick={this.toggleDescription}>
-                        {this.state.showDescription ? "Read less" : "Read more"}
+                        {this.state.showDescription ? <span>Read less <FontAwesomeIcon icon={faArrowCircleUp} style={{ paddingLeft: "2px", verticalAlign: "center" }}/></span> : <span>Read more...</span>}
                     </a>
                 </span>
             </div>

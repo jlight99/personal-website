@@ -9,8 +9,18 @@
     font-size: 54px;
 }
 
-.headline a{
+.headline a {
     color: black;
+}
+
+.headline a:hover {
+    color: #8860d0;
+}
+
+#medium-icon {
+    height: 0.6em;
+    vertical-align: auto;
+    padding-left: 7px;
 }
 
 .intro {
@@ -41,4 +51,10 @@
     padding: 6px;
     font-size: 18px;
     color: #5680e9;
+}
+
+.medium-caption {
+    font-size: 1.5em;
+    color: black;
+    text-decoration: underline #8860d0;
 }

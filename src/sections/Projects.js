@@ -17,7 +17,7 @@ class Projects extends React.Component {
         return (
             <a id="projects">
                 <span className="projects-section">
-                    <div className="projects-header">projects</div>
+                    <div className="projects-header">Projects</div>
                     <span className="projects">
                         <Card className="card">
                             <CardHeader

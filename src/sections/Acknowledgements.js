@@ -5,8 +5,8 @@ class Acknowledgements extends Component {
     render() {
         return (
             <div className="acknowlegements">
-                <div>this website was built by ellen huang using create react app</div>
-                <div>and is generously hosted by github pages</div>
+                <div>This website was built by Ellen Huang using Create React App</div>
+                <div>and is generously hosted by GitHub Pages</div>
             </div>
         )
     }

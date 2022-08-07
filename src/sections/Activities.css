@@ -1,0 +1,41 @@
+.activities-header {
+    font-size: 54px;
+    padding: 3em 0 1em 0;
+}
+
+#wrap-summary {
+    width: 1200px;
+    height: 320px;
+    padding: 0;
+    overflow: hidden;
+}
+
+#wrap-latest {
+    width: 1200px;
+    height: 800px;
+    padding: 0;
+    overflow: hidden;
+}
+
+#scaled-frame {
+    width: 400px;
+    height: 600px;
+    border: 0px;
+    margin: auto;
+}
+
+#scaled-frame {
+    zoom: 1.75;
+    -moz-transform: scale(1.75);
+    -moz-transform-origin: 0 0;
+    -o-transform: scale(1.75);
+    -o-transform-origin: 0 0;
+    -webkit-transform: scale(1.75);
+    -webkit-transform-origin: 0 0;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    #scaled-frame {
+        zoom: 1;
+    }
+}

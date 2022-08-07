@@ -4,8 +4,7 @@
 
 .projects-header {
     font-size: 54px;
-    /* padding: 8vh 5vw 6vh 5vw; */
-    padding: 8vh 0;
+    padding: 3em 0 1em 0;
 }
 
 .projects {
@@ -16,7 +15,6 @@
 }
 
 .card-header {
-    /* background-color: #E6E6FA; */
     background-color: rgb(147,112,250,0.6);
 }
 

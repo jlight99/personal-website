@@ -5,8 +5,8 @@ class BlogMenu extends Component {
     render() {
         return (
             <span className="menu-header">
-                <a href="/" class="section-header">me</a>
-                <a href="/blog" class="section-header">blog</a>
+                <a href="/" class="section-header">Home</a>
+                <a href="/blog" class="section-header">Blog</a>
             </span>
         )
     }
