@@ -12,7 +12,7 @@ import ProjectItem from './ProjectItem';
 class Projects extends React.Component {
     render() {
         return (
-            <a id="projects">
+            <span id="projects">
                 <span className="projects-section">
                     <div className="projects-header">Projects</div>
 
@@ -23,10 +23,10 @@ class Projects extends React.Component {
                     <span className="projects">
                         <ProjectItem
                             projectName="Refactored Spoon"
-                            projectSubtitle="nutrition-tracker web app"
+                            projectSubtitle="Nutrition-tracker web app"
                             projectImgPath="resources/projects/refactored-spoon-meals.png"
                             projectImgName="refactored spoon"
-                            projectDescription="friendly web app to track daily meals and generate nutrition reports using the USDA database"
+                            projectDescription="Friendly web app to track daily meals and generate nutrition reports using the USDA database"
                             projectTech="React, Go, MongoDB"
                             projectCardActions={
                                 <CardActions disableSpacing>
@@ -57,10 +57,10 @@ class Projects extends React.Component {
 
                         <ProjectItem
                             projectName="Docker JIG"
-                            projectSubtitle="automated load-testing"
+                            projectSubtitle="Automated load-testing"
                             projectImgPath="resources/projects/dockerjig.png"
                             projectImgName="docker jig"
-                            projectDescription="classic load-testing solution (JMeter, InfluxDB, Grafana) automated with Docker to eliminate manual setup!"
+                            projectDescription="Classic load-testing solution (JMeter, InfluxDB, Grafana) automated with Docker to eliminate manual setup!"
                             projectTech="Docker, JMeter, InfluxDB, Grafana"
                             projectCardActions={
                                 <CardActions disableSpacing>
@@ -84,10 +84,10 @@ class Projects extends React.Component {
 
                         <ProjectItem
                             projectName="Harry Potter Hangman"
-                            projectSubtitle="desktop hp-themed hangmag"
+                            projectSubtitle="Desktop HP-themed hangman"
                             projectImgPath="resources/projects/hpsorting.png"
                             projectImgName="harry potter hangman"
-                            projectDescription="fun desktop app that tests users' harry potter knowledge by challenging them to identify mystery characters!"
+                            projectDescription="Fun desktop app that tests users' Harry Potter knowledge by challenging them to identify mystery characters!"
                             projectTech="Java, Swing"
                             projectCardActions={
                                 <CardActions disableSpacing>
@@ -104,10 +104,10 @@ class Projects extends React.Component {
 
                         <ProjectItem
                             projectName="Fruity Fun"
-                            projectSubtitle="connect-4 with fruits on arduino"
+                            projectSubtitle="Connect-4 with fruits on Arduino"
                             projectImgPath="resources/projects/fruityfun.gif"
                             projectImgName="fruity funn"
-                            projectDescription="fruit-themed connect-4 with autoshuffle and hint features on the arduino. my first programming project!"
+                            projectDescription="Fruit-themed Connect-4 with autoshuffle and hint features on the Arduino. My first programming project!"
                             projectTech="C, Arduino"
                             projectCardActions={
                                 <CardActions disableSpacing>
@@ -123,7 +123,7 @@ class Projects extends React.Component {
                         />
                     </span>
                 </span>
-            </a>
+            </span>
         )
     }
 }

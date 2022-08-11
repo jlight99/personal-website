@@ -5,15 +5,15 @@ import ExperienceItem from './ExperienceItem';
 class Experience extends React.Component {
     render() {
         return (
-            <a id="experience">
+            <span id="experience">
                 <div className="experience-header">Experience</div>
                 <span className="experience-section">
 
                     <div className="experience-intro">
                         Over the course of university, I was fortunate to have had six internships,
                         through which I got the chance to work at companies of varying sizes ranging from Series B startups to Big Tech,
-                        and work across various sectors from e-commerce to rideshare to AR/VR. I've worked as a data visualizer,
-                        a full-stack developer, a backend developer, and an infrastructure engineer, programming in Go,
+                        and work across various sectors from e-commerce to rideshare to AR/VR. I've worked as a
+                        backend developer, a full-stack developer, an infrastructure engineer, and a data visualizer, programming in Go,
                         Python, C++, JavaScript, and Java. These internships were as much a part of my university education as any of my courses.
                     </div>
 
@@ -188,7 +188,7 @@ class Experience extends React.Component {
                         }
                     />
                 </span>
-            </a>
+            </span>
         )
     }
 }

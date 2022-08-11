@@ -6,7 +6,7 @@ import MusicItem from './MusicItem';
 class Music extends React.Component {
     render() {
         return (
-            <a id="music">
+            <span id="music">
                 <div className="music-header">Music</div>
 
                 <div className="music-intro">
@@ -48,7 +48,7 @@ class Music extends React.Component {
                     musicPath="resources/music/all-of-me.m4a"
                 />
 
-            </a>
+            </span>
         )
     }
 }

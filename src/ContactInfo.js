@@ -27,9 +27,9 @@ class ContactInfo extends Component {
           </Tooltip>
         </div>
         <div className="contact-item">
-          <Tooltip title={<h1 style={{ fontSize: "1.5em" }}>Reach out on Facebook!</h1>}>
-            <a href="https://www.facebook.com/ellenhuang523">
-              <FontAwesomeIcon icon={['fab', 'facebook']} style={{ color: "4267B2" }} />
+          <Tooltip title={<h1 style={{ fontSize: "1.5em" }}>Follow me on Goodreads!</h1>}>
+            <a href="https://www.goodreads.com/ellenhuang">
+              <FontAwesomeIcon icon={['fab', 'goodreads']} style={{ color: "75420E" }} />
             </a>
           </Tooltip>
         </div>

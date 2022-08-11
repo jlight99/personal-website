@@ -29,9 +29,10 @@ class ProjectItem extends React.Component {
                     />
 
                     <CardContent>
-                        <Typography variant="body2" color="textSecondary" component="p">
-                            <div>{this.props.projectDescription}</div>
-                            <br></br>
+                        <Typography variant="body2" color="textSecondary">
+                            <br/>
+                            <span>{this.props.projectDescription}</span>
+                            <br/><br/>
                             <span><FontAwesomeIcon icon={faCog} style={{ paddingRight: "5px" }}/>{this.props.projectTech}</span>
                         </Typography>
                     </CardContent>

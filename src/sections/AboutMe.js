@@ -6,7 +6,7 @@ import './AboutMe.css';
 class AboutMe extends React.Component {
     render() {
         return (
-            <a id="about_me">
+            <span id="about_me">
                 <span className="about">
                     <span className="about-inner">
                         <span id="picture-of-me">
@@ -22,7 +22,7 @@ class AboutMe extends React.Component {
                         </span>
                     </span>
                 </span>
-            </a>
+            </span>
         );
     }
 }
