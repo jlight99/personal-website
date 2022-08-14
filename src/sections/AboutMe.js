@@ -10,7 +10,7 @@ class AboutMe extends React.Component {
                 <span className="about">
                     <span className="about-inner">
                         <span id="picture-of-me">
-                            <img src="/resources/amsterdam-pic-2.JPG"></img>
+                            <img src="/resources/amsterdam-pic-2.jpg"></img>
                         </span>
                         <span className="about-section">
                             <div className="hi">Hi, I'm Ellen!</div>
