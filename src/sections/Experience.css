@@ -9,6 +9,7 @@
 .experience-header {
     font-size: 54px;
     padding-bottom: 1em;
+    padding-top: 1.6em;
 }
 
 .position-details {
@@ -37,7 +38,7 @@
     font-size: 1.3em;
     float: right;
     color: rgb(93, 63, 211);
-    padding-top: 0.4em;
+    padding-top: 0.1em;
 }
 
 .at {
